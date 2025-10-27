@@ -29,9 +29,6 @@ forming a unified pipeline for **document layout detection + text recognition + 
 | **Post-Processing** | Confidence fusion between YOLO and OCR outputs |
 | **File Support** | PDF, PPT(X), Image (JPG/PNG) auto-conversion and inference |
 
-<p align="center">
-  <img src="docs/architecture.png" width="700"/>
-</p>
 
 ---
 
@@ -54,5 +51,5 @@ forming a unified pipeline for **document layout detection + text recognition + 
 - **Batch:** Auto (0.7 × GPU memory, T4 16GB)  
 - **Augmentation:** Minimal & geometry-safe for document layouts  
 - **box:** 8.0, **cls:** 0.5, **dfl:** 1.5
-hsv_v: 0.10, degrees: 1.5, translate: 0.05, scale: 0.5
-fliplr: 0.0, flipud: 0.0, mosaic: 0.05, mixup: 0.0
+- **hsv_v:** 0.10, **degrees:** 1.5, **translate:** 0.05, **scale:** 0.5
+- **fliplr:** 0.0, **flipud:** 0.0, **mosaic:** 0.05, **mixup:** 0.0
