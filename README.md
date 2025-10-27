@@ -168,4 +168,4 @@ From data preparation to final submission, all stages were repeatedly tested und
 - Apply **quantization and TensorRT** for low-latency deployment  
 - Experiment with **curriculum training** based on document complexity
 
----
+
