@@ -102,8 +102,6 @@ retained adequate representation within the dataset.
 | **Small-object detection instability** | YOLO often missed small tables/equations | Increased `box=8.0`, decreased `cls=0.5`, applied 1280px resolution |
 | **Augmentation distortion** | Default YOLO augmentations warped tables | Replaced with conservative geometry (`degrees=1.5`, `translate=0.05`, `scale=0.5`) |
 | **Reading-order misalignment** | YOLO cannot infer logical sequence | Added LayoutLMv3-based pairwise reading-order reasoning |
-| **Kaggle dataset access failure** | Broken link to `documnet-layout-recognition-dataset-publaynet-t0.zip` | Switched to Hugging Face mirror + local dataset path validation |
-| **Google Drive disconnect (“Transport endpoint not connected”)** | FUSE failure during dataset unzip | Introduced automatic re-mount and absolute path usage |
 | **Colab OOM errors during training** | YOLOv11l was too heavy for T4 16GB | Switched to YOLO11m with auto-batch (0.70 memory ratio) |
 
 ---
