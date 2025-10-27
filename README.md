@@ -111,13 +111,10 @@ retained adequate representation within the dataset.
 | Metric | Score |
 |--------|--------|
 | **Final Leaderboard Macro-F1** | **0.83446** |
-| **Public Leaderboard Ranking** | 🏆 Top 10% |
 | **Validation mAP@50–95** | 0.83 |
 | **Inference Speed (T4)** | ~32 FPS |
 
-<p align="center">
-<img src="docs/leaderboard.png" width="600"/>
-</p>
+
 
 ---
 
